@@ -1,0 +1,223 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="PhoneticChart1.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="ul">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li style="float:left"><a class="active" href="#about">Phonetic Chart</a></li>
+            </ul>
+        </div>
+        <div class="heading">
+            <h1 style="color:brown ;"><u>Phonetic Chart</u></h1>
+        <h2><b>Consonants</b></h2>
+        <h4 style="color: rgba(21, 21, 113, 0.84);">This chart covers the phonemic inventory of Punjabi, and also includes some phonemes of other languages spoken in India.</h4>
+        </div>
+        <title>PhoneticChart</title>
+        
+    </head>
+    <br>
+       <audio src="audios/ਮ.mp3" id="ਮ"></audio>
+       <audio src="audios/ਨ.mp3" id="ਨ"></audio>
+       <audio src="audios/ਣ.mp3" id="ਣ"></audio>
+       <audio src="audios/ਞ.mp3" id="ਞ"></audio>
+       <audio src="audios/ਙ.mp3" id="ਙ"></audio>
+       <audio src="audios/ਸ਼.mp3" id="ਸ਼"></audio>
+       <audio src="audios/ਸ.mp3" id="ਸ"></audio>
+       <audio src="audios/ਕ.mp3" id="ਕ"></audio>
+       <audio src="audios/ਖ.mp3" id="ਖ"></audio>
+       <audio src="audios/ਗ.mp3" id="ਗ"></audio>
+       <audio src="audios/ਘ.mp3" id="ਘ"></audio>
+       <audio src="audios/ਚ.mp3" id="ਚ"></audio>
+       <audio src="audios/ਛ.mp3" id="ਛ"></audio>
+       <audio src="audios/ਜ.mp3" id="ਜ"></audio>
+       <audio src="audios/ਝ.mp3" id="ਝ"></audio>
+       <audio src="audios/ਟ.mp3" id="ਟ"></audio>
+       <audio src="audios/ਠ.mp3" id="ਠ"></audio>
+       <audio src="audios/ਡ.mp3" id="ਡ"></audio>
+       <audio src="audios/ਢ.mp3" id="ਢ"></audio>
+       <audio src="audios/ਤ.mp3" id="ਤ"></audio>
+       <audio src="audios/ਥ.mp3" id="ਥ"></audio>
+       <audio src="audios/ਦ.mp3" id="ਦ"></audio>
+       <audio src="audios/ਧ.mp3" id="ਧ"></audio>
+       <audio src="audios/ਪ.mp3" id="ਪ"></audio>
+       <audio src="audios/ਫ.mp3" id="ਫ"></audio>
+       <audio src="audios/ਬ.mp3" id="ਬ"></audio>
+       <audio src="audios/ਭ.mp3" id="ਭ"></audio>   
+    <script>
+        function playMyAudio(){
+          document.getElementById("ਮ").play();
+          //document.getElementById("ਨ").play();
+          //var sound=document.getElementById("ਨ");
+          //document.getElementById("ਣ").play();
+          //document.getElementById("ਞ").play();
+          //document.getElementById("ਙ").play();
+        }
+       </script>
+    <body>
+        <div class="button"></div>
+        <div class="table">
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                        <th>Labial</th>
+                        <th>Alveolar</th>
+                        <th>Retroflex</th>
+                        <th>palatal</th>
+                        <th>Velar</th>
+                        <th>Glottal</th>
+                     </tr>
+                     <tr>
+                        <td colspan="2"><b>Nasal</b></td>
+                        <td> <button class="button" onClick="playMyAudio()">ਮ</button>ਮ</td>
+                        <td> <button class="button" onClick="playMyAudio()">ਨ</button>ਨ</td>
+                        <td> <button class="button" onClick="playMyAudio()">ਣ</button>ਣ</td>
+                        <td> <button class="button" onClick="playMyAudio()">ਞ</button>ਞ</td>
+                        <td> <button class="button" onClick="playMyAudio()">ਙ</button>ਙ</td>
+                        <td></td>   
+                     </tr>
+                     <tr>
+                        <td rowspan="4"><b>Stop/Aspirated</b></td>
+                        <td><b>tenuis</b></td>
+                        <td><button class="button" onClick="playMyAudio()">ਪ</button>ਪ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਤ</button>ਤ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਟ</button>ਟ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਚ</button>ਚ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਕ</button>ਕ</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td colspan = "1"><b>Aspirated</b></td>
+                        <td><button class="button" onClick="playMyAudio()">ਫ</button>ਫ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਥ</button>ਥ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਠ</button>ਠ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਛ</button>ਛ</td>
+                        <td><button class="button" onClick="playMyAudio()">ਖ</button>ਖ</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                         <td colspan="1"><b>voiced</b></td>
+                         <td><button class="button" onClick="playMyAudio()">ਬ</button>ਬ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਦ</button>ਦ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਡ</button>ਡ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਜ</button>ਜ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਗ</button>ਗ</td>
+                         <td></td>
+                     </tr>
+                     <tr>
+                         <td colspan="1"><b>tonal</b></td>
+                         <td><button class="button" onClick="playMyAudio()">ਭ</button>ਭ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਧ</button>ਧ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਢ</button>ਢ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਝ</button>ਝ</td>
+                         <td><button class="button" onClick="playMyAudio()">ਘ</button>ਘ</td>
+                         <td></td>
+             
+                     </tr>
+                     <tr>
+                         <td rowspan="2"><b>Fricative</b></td>
+                         <td colspan="1"><b>voiceless</b></td>
+                         <td><button class="button" onClick="playMyAudio()">ਫ਼</button>ਫ਼</td>
+                         <td><button class="button" onClick="playMyAudio()">ਸ</button>ਸ</td>
+                         <td></td>
+                         <td><button class="button" onClick="playMyAudio()">ਸ਼</button>ਸ਼</td>
+                         <td><button class="button" onClick="playMyAudio()">ਖ਼</button>ਖ਼</td>
+                         <td></td>
+                     </tr>
+                     <tr>
+                         <td colspan="1"><b>voiced</b></td>
+                         <td></td>
+                         <td><button class="button" onClick="playMyAudio()">ਜ਼</button>ਜ਼</td>
+                         <td></td>
+                         <td></td>
+                         <td><button class="button" onClick="playMyAudio()">ਗ਼</button>ਗ਼</td>
+                         <td><button class="button" onClick="playMyAudio()">ਹ</button>ਹ</td>
+                     </tr>
+                     <tr>
+                         <td colspan="2"><b>Rhotic</b></td>
+                         <td></td>
+                         <td><button class="button" onClick="playMyAudio()">ਰ</button>ਰ</td>
+                         <td><button class="button" onClick="playMyAudio()">ੜ</button>ੜ</td>
+                         <td></td>
+                         <td></td>            
+                         <td></td>
+                     </tr>
+                     <tr>
+                         <td colspan="2"><b>Approximant</b></td>
+                         <td><button  class="button" onClick="playMyAudio()">ਵ</button>ਵ</td>
+                         <td><button  class="button" onClick="playMyAudio()">ਲ</button>ਲ</td>
+                         <td><button  class="button" onClick="playMyAudio()">ਲ਼</button>ਲ਼</td>
+                         <td><button  class="button" onClick="playMyAudio()">ਯ</button>ਯ</td>
+                         <td></td>
+                         <td></td>
+                     </tr>
+                  </table>
+        </div>
+        <br>
+    <h2 class="heading"><b>Vowels</b></h2> 
+    <br>
+    <table class="table">
+        <tr>
+            <th colspan="1"></th>
+            <th>Front</th>
+            <th>Near-Front</th>
+            <th>Central</th>
+            <th>Near-Back</th>
+            <th>Back</th>
+        </tr>
+        <tr>
+            <td><b>Close</b></td>
+            <td><button  class="button" onClick="playMyAudio()">ਈ</button>ਈ</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button  class="button" onClick="playMyAudio()">ਊ</button>ਊ</td>
+        </tr>
+        <tr>
+            <td><b>Near-Close</b></td>
+            <td></td>
+            <td><button  class="button" onClick="playMyAudio()">ਇ</button>ਇ</td>
+            <td></td>
+            <td><button  class="button" onClick="playMyAudio()">ਉ</button>ਉ</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><b>Close-Mid</b></td>
+            <td><button  class="button" onClick="playMyAudio()">ਏ</button>ਏ</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button  class="button" onClick="playMyAudio()">ਓ</button>ਓ</td>
+        </tr>
+        <tr>
+            <td><b>Mid</b></td>
+            <td></td>
+            <td></td>
+            <td><button  class="button" onClick="playMyAudio()">ਅ</button>ਅ</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><b>Opem-Mid</b></td>
+            <td><button  class="button" onClick="playMyAudio()">ਐ</button>ਐ</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button  class="button" onClick="playMyAudio()">ਔ</button>ਔ</td>
+        </tr>
+        <tr>
+            <td><b>Open</b></td>
+            <td></td>
+            <td></td>
+            <td><button  class="button" onClick="playMyAudio()">ਆ</button>ਆ</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </body>
+    </html>
